@@ -1,0 +1,13 @@
+{
+  "name": "careflow",
+  "version": "1.0.0",
+  "description": "CareFlow — human-in-the-loop multilingual triage assistant (Gemini-powered)",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test test/api.test.js"
+  }
+}
